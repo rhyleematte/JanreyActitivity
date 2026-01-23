@@ -42,138 +42,138 @@ export default function HomePage() {
           <p style={paragraphStyle}>
             I am a passionate Full Stack Developer with experience building dynamic, user-friendly web applications from the ground up. I enjoy working on both front-end and back-end technologies, translating complex requirements into efficient, scalable solutions. With a solid foundation in HTML, CSS, JavaScript, React, Node.js, and databases like MongoDB and SQL, I thrive in creating seamless digital experiences while ensuring robust performance and security.
           </p>
-          
 
-        {/* Let's Get Started Button */}
-        <button
-        style={getStartedButtonStyle}
-        onClick={() => {
-        const projectsSection = document.getElementById("projects");
-        projectsSection?.scrollIntoView({ behavior: "smooth" });
-        }}
-        >
-        Let's Get Started
-        </button>
-
+          {/* Let's Get Started Button */}
+          <button
+            style={getStartedButtonStyle}
+            onClick={() => {
+              const projectsSection = document.getElementById("projects");
+              projectsSection?.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            Let's Get Started
+          </button>
         </div>
-        </section>
+      </section>
 
-        {/* Featured Projects */}
-        <section id="projects" style={sectionStyle}>
+      {/* Featured Projects */}
+      <section id="projects" style={sectionStyle}>
         <h1 style={headingStyle}>Featured Projects</h1>
         <div style={projectsContainerStyle}>
-        {/* Project 1 */}
-        <div style={projectCardStyle}>
-        <Image
-          src="/socialmedia.jpg" // Add your project image in /public
-          alt="Social Media App"
-          width={400}
-          height={250}
-          style={{ borderRadius: "12px", objectFit: "cover" }}
-        />
-        <h2 style={projectTitleStyle}>Social Media App</h2>
-        <div style={projectDescStyle}>
-          <p> Features: User authentication, profiles, posts, comments, likes, messaging. </p>
-          <p>Backend: Real-time updates with WebSockets, database relationships.</p>
-          <p>Technologies: React + Node.js/Express + MongoDB + Socket.io.</p>
-        </div>
-        </div>
+          {/* Project 1 */}
+          <div style={projectCardStyle}>
+            <Image
+              src="/socialmedia.jpg"
+              alt="Social Media App"
+              width={400}
+              height={250}
+              style={{ borderRadius: "12px", objectFit: "cover" }}
+            />
+            <h2 style={projectTitleStyle}>Social Media App</h2>
+            <div style={projectDescStyle}>
+              <p>Features: User authentication, profiles, posts, comments, likes, messaging.</p>
+              <p>Backend: Real-time updates with WebSockets, database relationships.</p>
+              <p>Technologies: React + Node.js/Express + MongoDB + Socket.io.</p>
+            </div>
+          </div>
 
-        {/* Project 2 */}
-        <div style={projectCardStyle}>
-        <Image
-          src="/ecommerce.jpg"
-          alt="Project 2"
-          width={400}
-          height={250}
-          style={{ borderRadius: "12px", objectFit: "cover" }}
-        />
-        <h2 style={projectTitleStyle}>Midnight Comfort Tee</h2>
-        <p style={projectDescStyle}>
-        Experience all-day comfort with our Midnight Comfort Tee, crafted from ultra-soft, breathable cotton. Its sleek design and tailored fit make it perfect for casual outings or layering under your favorite jacket. Available in multiple colors, this tee is your go-to for effortless style and comfort.  
-        </p>
-        </div>
+          {/* Project 2 */}
+          <div style={projectCardStyle}>
+            <Image
+              src="/ecommerce.jpg"
+              alt="Project 2"
+              width={400}
+              height={250}
+              style={{ borderRadius: "12px", objectFit: "cover" }}
+            />
+            <h2 style={projectTitleStyle}>Midnight Comfort Tee</h2>
+            <p style={projectDescStyle}>
+              Experience all-day comfort with our Midnight Comfort Tee, crafted from ultra-soft, breathable cotton. Its sleek design and tailored fit make it perfect for casual outings or layering under your favorite jacket. Available in multiple colors, this tee is your go-to for effortless style and comfort.
+            </p>
+          </div>
 
-        {/* Project 3 */}
-        <div style={projectCardStyle}>
-        <Image
-          src="/blogging.jpg"
-          alt="Project 3"
-          width={400}
-          height={250}
-          style={{ borderRadius: "12px", objectFit: "cover" }}
-        />
-        <h2 style={projectTitleStyle}>Boost Your Blog Like a Pro!</h2>
-        <p style={projectDescStyle}>
-          Take your blogging game to the next level with our all-in-one blogging toolkit. From sleek themes and customizable templates to SEO-friendly plugins and content planning tools, everything you need to create a stunning, high-traffic blog is right here. Perfect for beginners and seasoned bloggers alike, our products make writing, designing, and growing your blog easier than ever. Start turning your ideas into a thriving online presence today!</p>
-        </div>
+          {/* Project 3 */}
+          <div style={projectCardStyle}>
+            <Image
+              src="/blogging.jpg"
+              alt="Project 3"
+              width={400}
+              height={250}
+              style={{ borderRadius: "12px", objectFit: "cover" }}
+            />
+            <h2 style={projectTitleStyle}>Boost Your Blog Like a Pro!</h2>
+            <p style={projectDescStyle}>
+              Take your blogging game to the next level with our all-in-one blogging toolkit. From sleek themes and customizable templates to SEO-friendly plugins and content planning tools, everything you need to create a stunning, high-traffic blog is right here. Perfect for beginners and seasoned bloggers alike, our products make writing, designing, and growing your blog easier than ever. Start turning your ideas into a thriving online presence today!
+            </p>
+          </div>
 
-        {/* Project 4 */}
-        <div style={projectCardStyle}>
-        <Image
-          src="/task.jpg"
-          alt="Project 4"
-          width={400}
-          height={250}
-          style={{ borderRadius: "12px", objectFit: "cover" }}
-        />
-        <h2 style={projectTitleStyle}>Stay Organized, Achieve More</h2>
-        <p style={projectDescStyle}>
-          Simplify your work and boost productivity with our powerful task management tool. Easily create, assign, and track tasks, set deadlines, and prioritize what matters most—all in one intuitive platform. Perfect for teams and individuals, it keeps projects on schedule and stress off your plate. Get things done smarter, faster, and more efficiently today!</p>
+          {/* Project 4 */}
+          <div style={projectCardStyle}>
+            <Image
+              src="/task.jpg"
+              alt="Project 4"
+              width={400}
+              height={250}
+              style={{ borderRadius: "12px", objectFit: "cover" }}
+            />
+            <h2 style={projectTitleStyle}>Stay Organized, Achieve More</h2>
+            <p style={projectDescStyle}>
+              Simplify your work and boost productivity with our powerful task management tool. Easily create, assign, and track tasks, set deadlines, and prioritize what matters most—all in one intuitive platform. Perfect for teams and individuals, it keeps projects on schedule and stress off your plate. Get things done smarter, faster, and more efficiently today!
+            </p>
+          </div>
         </div>
-        </div>
-        </section>
-
-
+      </section>
 
       <section id="skills" style={sectionStyle}>
   <h1 style={headingStyle}>Skills</h1>
+  <div style={skillsColumnsStyle}>
+    {/* Front-End */}
+    <div style={{ ...skillCategoryStyle, backgroundColor: "#4B0082", padding: "16px", borderRadius: "12px" }}>
+      <h2 style={skillHeadingStyle}>Front-End (Client-Side) Skills</h2>
+      <ul style={{ ...skillListStyle, color: "white" }}>
+        <li>HTML/CSS – Building and styling web pages</li>
+        <li>JavaScript – Adding interactivity and dynamic behavior</li>
+        <li>Front-End Frameworks/Libraries – React, Angular, Vue.js, Svelte</li>
+        <li>Responsive Design – Mobile, tablet, desktop</li>
+        <li>UI/UX Principles – User experience & design best practices</li>
+        <li>Version Control Basics – Git/GitHub</li>
+      </ul>
+    </div>
 
-  {/* Front-End Skills */}
-  <div style={skillCategoryStyle}>
-    <h2 style={skillHeadingStyle}>Front-End (Client-Side) Skills</h2>
-    <ul style={skillListStyle}>
-      <li>HTML/CSS – Building and styling web pages</li>
-      <li>JavaScript – Adding interactivity and dynamic behavior</li>
-      <li>Front-End Frameworks/Libraries – React, Angular, Vue.js, Svelte</li>
-      <li>Responsive Design – Ensuring websites work on mobile, tablet, and desktop</li>
-      <li>UI/UX Principles – Understanding user experience and design best practices</li>
-      <li>Version Control Basics – Git/GitHub for tracking changes</li>
-    </ul>
-  </div>
+    {/* Back-End */}
+    <div style={{ ...skillCategoryStyle, backgroundColor: "#4B0082", padding: "16px", borderRadius: "12px" }}>
+      <h2 style={skillHeadingStyle}>Back-End (Server-Side) Skills</h2>
+      <ul style={{ ...skillListStyle, color: "white" }}>
+        <li>Server-Side Languages – Node.js, Python, Ruby, Java, PHP, C#</li>
+        <li>Databases – SQL (MySQL, PostgreSQL) & NoSQL (MongoDB, Firebase)</li>
+        <li>API Development – RESTful APIs, GraphQL</li>
+        <li>Authentication & Authorization – Secure user management</li>
+        <li>Server Management & Deployment – AWS, Azure, Docker, Kubernetes</li>
+      </ul>
+    </div>
 
-  {/* Back-End Skills */}
-  <div style={skillCategoryStyle}>
-    <h2 style={skillHeadingStyle}>Back-End (Server-Side) Skills</h2>
-    <ul style={skillListStyle}>
-      <li>Server-Side Languages – Node.js, Python (Django/Flask), Ruby on Rails, Java, PHP, C#</li>
-      <li>Databases – SQL (MySQL, PostgreSQL) and NoSQL (MongoDB, Firebase)</li>
-      <li>API Development – RESTful APIs, sometimes GraphQL</li>
-      <li>Authentication & Authorization – Managing users and permissions securely</li>
-      <li>Server Management & Deployment – AWS, Azure, Docker, Kubernetes</li>
-    </ul>
-  </div>
-
-  {/* Other Essential Skills */}
-  <div style={skillCategoryStyle}>
-    <h2 style={skillHeadingStyle}>Other Essential Skills</h2>
-    <ul style={skillListStyle}>
-      <li>Version Control Systems – Git and GitHub/GitLab/Bitbucket</li>
-      <li>Problem-Solving & Algorithms – Writing efficient, clean code</li>
-      <li>Testing & Debugging – Unit tests, integration tests, debugging tools</li>
-      <li>DevOps Basics – CI/CD pipelines, automated deployment, containerization</li>
-      <li>Soft Skills – Communication, teamwork, time management, adaptability</li>
-    </ul>
+    {/* Other Essential Skills */}
+    <div style={{ ...skillCategoryStyle, backgroundColor: "#4B0082", padding: "16px", borderRadius: "12px" }}>
+      <h2 style={skillHeadingStyle}>Other Essential Skills</h2>
+      <ul style={{ ...skillListStyle, color: "white" }}>
+        <li>Version Control Systems – Git, GitHub/GitLab/Bitbucket</li>
+        <li>Problem-Solving & Algorithms – Efficient, clean code</li>
+        <li>Testing & Debugging – Unit tests, integration tests</li>
+        <li>DevOps Basics – CI/CD, containerization</li>
+        <li>Soft Skills – Communication, teamwork, adaptability</li>
+      </ul>
+    </div>
   </div>
 </section>
 
-<section id="tech" style={sectionStyle}>
+
+      <section id="tech" style={sectionStyle}>
   <h1 style={headingStyle}>Technology</h1>
 
   {/* Front-End Technologies */}
-  <div style={techCategoryStyle}>
+  <div style={{ ...techCategoryStyle, backgroundColor: "#4B0082", padding: "16px", borderRadius: "12px" }}>
     <h2 style={techHeadingStyle}>Front-End (Client-Side) Technologies</h2>
-    <ul style={techListStyle}>
+    <ul style={{ ...techListStyle, color: "white" }}>
       <li>HTML5 & CSS3 – Markup and styling of web pages</li>
       <li>JavaScript – Core scripting language for interactivity</li>
       <li>Front-End Frameworks/Libraries: React.js, Angular, Vue.js, Svelte</li>
@@ -184,9 +184,9 @@ export default function HomePage() {
   </div>
 
   {/* Back-End Technologies */}
-  <div style={techCategoryStyle}>
+  <div style={{ ...techCategoryStyle, backgroundColor: "#4B0082", padding: "16px", borderRadius: "12px" }}>
     <h2 style={techHeadingStyle}>Back-End (Server-Side) Technologies</h2>
-    <ul style={techListStyle}>
+    <ul style={{ ...techListStyle, color: "white" }}>
       <li>Programming Languages: Node.js, Python (Django/Flask), Java (Spring Boot), Ruby (Rails), PHP (Laravel), C# (.NET Core)</li>
       <li>Server Frameworks: Express.js (Node.js), Django, Flask, Spring, Rails</li>
       <li>Databases:
@@ -201,9 +201,9 @@ export default function HomePage() {
   </div>
 
   {/* DevOps & Deployment Tools */}
-  <div style={techCategoryStyle}>
+  <div style={{ ...techCategoryStyle, backgroundColor: "#4B0082", padding: "16px", borderRadius: "12px" }}>
     <h2 style={techHeadingStyle}>DevOps & Deployment Tools</h2>
-    <ul style={techListStyle}>
+    <ul style={{ ...techListStyle, color: "white" }}>
       <li>Version Control: Git, GitHub, GitLab, Bitbucket</li>
       <li>Containerization: Docker, Kubernetes</li>
       <li>Cloud Platforms: AWS, Azure, Google Cloud</li>
@@ -213,9 +213,9 @@ export default function HomePage() {
   </div>
 
   {/* Additional Tools & Technologies */}
-  <div style={techCategoryStyle}>
+  <div style={{ ...techCategoryStyle, backgroundColor: "#4B0082", padding: "16px", borderRadius: "12px" }}>
     <h2 style={techHeadingStyle}>Additional Tools & Technologies</h2>
-    <ul style={techListStyle}>
+    <ul style={{ ...techListStyle, color: "white" }}>
       <li>Testing Tools: Jest, Mocha, Selenium, Cypress</li>
       <li>Package Managers: npm, yarn, pip</li>
       <li>Task Runners / Bundlers: Webpack, Gulp, Parcel</li>
@@ -224,6 +224,7 @@ export default function HomePage() {
     </ul>
   </div>
 </section>
+
 
     </main>
   );
@@ -269,7 +270,7 @@ const getStartedButtonStyle = {
   fontSize: "1.1rem",
   fontWeight: 500,
   color: "white",
-  backgroundColor: "#4B0082", // dark purple
+  backgroundColor: "#4B0082",
   border: "none",
   borderRadius: "30px",
   cursor: "pointer",
@@ -286,7 +287,7 @@ const projectsContainerStyle = {
 const projectCardStyle = {
   display: "flex",
   flexDirection: "column",
-  backgroundColor: "#111", // dark card background
+  backgroundColor: "#111",
   padding: "20px",
   borderRadius: "12px",
   boxShadow: "0 4px 15px rgba(75,0,130,0.3)",
@@ -305,8 +306,16 @@ const projectDescStyle = {
   lineHeight: 1.6,
 };
 
+const skillsColumnsStyle = {
+  display: "flex",
+  flexWrap: "wrap",
+  gap: "40px",
+  marginTop: "16px",
+};
 
 const skillCategoryStyle = {
+  flex: "1 1 300px",
+  minWidth: "250px",
   marginBottom: "24px",
 };
 
@@ -324,8 +333,9 @@ const skillListStyle = {
   fontSize: "1.05rem",
 };
 
-
 const techCategoryStyle = {
+  flex: "1 1 300px",
+  minWidth: "250px",
   marginBottom: "24px",
 };
 
